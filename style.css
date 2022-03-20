@@ -123,7 +123,7 @@ background-size: cover;
     display: none;
     align-items: center;
     width: 100% !important;
-    transition: transform .6s ease;
+    transition: transform .9s ease;
     backface-visibility: hidden;
     perspective: 1000px;
 }
@@ -178,26 +178,61 @@ background-size: cover;
 .jumbotron{
   display: flex;
   align-items: center;
+    flex-direction: row-reverse;
+
 }
 
 
 .row1{
-  
+   background-color: #cadddb;
+    opacity: 0.66;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 32px 10px;
+  align-items: center;
+  
+}
+.row2{
+
+  display: flex;
   padding: 32px;
   align-items: center;
 }
-
-
 .img-fluid{
-    width:50%;
 
     height: auto;
 
 }
 
 
+.myButton1 {
+  border-radius: 52% 48% 50% 50% / 51% 52% 48% 49%;
+
+	box-shadow: 0px 10px 14px -7px #c9e4e9;
+	background:linear-gradient(to bottom, #277c45 5%, #ccdde0 100%);
+	background-color:#e9eff1;
+	display:inline-block;
+	cursor:pointer;
+	color:#dcefee;
+	padding:5px 5px;
+  	margin:5px 5px;
+
+	text-shadow:0px 1px 0px #3d768a;
+    opacity: 0.9;
+
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #cadddb 50%, #1d915e 100%);
+	background-color:#eff4f5;
+    opacity: 0.9;
+
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+    opacity: 0.9;
+
+}
 
 
 
